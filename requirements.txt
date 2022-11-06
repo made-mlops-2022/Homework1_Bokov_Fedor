@@ -14,7 +14,6 @@ numpy
 sweetviz
 argparse
 logging
-click
 catboost
 sklearn
 pytest
