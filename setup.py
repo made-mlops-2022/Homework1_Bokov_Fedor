@@ -1,5 +1,10 @@
 from setuptools import find_packages, setup
 
+
+
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
+
 setup(
     name='src',
     packages=find_packages(),
@@ -7,4 +12,5 @@ setup(
     description='MADE MLOps HW1',
     author='Fedor Bokov',
     license='BSD-3',
+    install_requires=required,
 )
